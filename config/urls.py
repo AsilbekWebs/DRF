@@ -19,5 +19,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('tests/', include('tests.urls')),
+    path('products/', include('products.urls')),
+    path('fbv_serializer/', include('fbv_serializer.urls')),
 ]

@@ -42,7 +42,9 @@ INSTALLED_APPS = [
 
     'rest_framework',
 
-    'tests'
+    'products',
+
+    'fbv_serializer',
 ]
 
 MIDDLEWARE = [
